@@ -6,38 +6,48 @@ body {
 }
 
 header {
-    background-color: #0073e6;
+    background: #333;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
-.content {
+.profile {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-
-.career {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto;
     background: white;
-    margin: 15px;
     padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
 }
 
-.career img {
-    width: 100%;
+.profile .info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.profile .image img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.projects, .contact {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px;
+    background: #333;
+    color: white;
     margin-top: 20px;
 }
